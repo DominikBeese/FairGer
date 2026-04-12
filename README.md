@@ -4,8 +4,8 @@
 Data and code for the paper ["Fine-Grained Detection of Solidarity for Women and Migrants in 155 Years of German Parliamentary Debates"](https://aclanthology.org/2024.emnlp-main.337/) by Aida Kostikova, Dominik Beese, Benjamin Paassen, Ole Pütz, Gregor Wiedemann, and Steffen Eger, EMNLP 2024.
 
 <p align="center">
-  <img src="./images/PerDecade_highlevel_Migrant.png" alt="High-level solidarity distribution over time" width="35.5%">
-  <img src="./images/PerDecade_finegrained_Migrant.png" alt="Fine-grained solidarity distribution over time" width="55.5%">
+  <img src="./images/PerDecade_highlevel_Migrant.png" alt="High-level solidarity distribution over time" width="36%">
+  <img src="./images/PerDecade_finegrained_Migrant.png" alt="Fine-grained solidarity distribution over time" width="54%">
 </p>
 
 ## Content
