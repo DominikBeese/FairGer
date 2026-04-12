@@ -1,24 +1,34 @@
 [![](https://img.shields.io/badge/Python-3.10.6-informational)](https://www.python.org/)
-[![](https://img.shields.io/github/license/DominikBeese/FairGer?label=License)](/LICENSE)
+[![](https://img.shields.io/github/license/DominikBeese/FairGer?label=License)](./LICENSE)
 # FairGer
 Data and code for the paper ["Fine-Grained Detection of Solidarity for Women and Migrants in 155 Years of German Parliamentary Debates"](https://aclanthology.org/2024.emnlp-main.337/) by Aida Kostikova, Dominik Beese, Benjamin Paassen, Ole Pütz, Gregor Wiedemann, and Steffen Eger, EMNLP 2024.
 
-<img src="https://user-images.githubusercontent.com/111588769/194097201-571564b8-f758-4daf-bb60-8bde8803c3cc.png" alt="Solidarity Distribution per Decade" width="550px">
+<img src="./images/PerDecade_highlevel_Migrant.png" alt="High-level solidarity distribution over time" width="550px">
 
+<img src="./images/PerDecade_finegrained_Migrant.png" alt="Fine-grained solidarity distribution over time" width="550px">
 
 ## Content
+
 The repository contains the following elements:
- * 📂 [Data](/Data)
-   * 📂 [Datasets](/Data/Datasets) of sentences containing a woman or migrant keyword
-   * 📂 [Human Annotated Data](/Data/Human%20Annotated%20Data) regarding solidarity towards women and migrants
-   * 📂 [Model Predicted Data](/Data/Model%20Predicted%20Data) with predictions of our ensemble for all [Datasets](/Data/Datasets)
- * 📂 [Code](/Code) to train and apply models
- * 📂 [Analysis](/Analysis) code to generate the plots
+
+- 📂 [Data](./Data)
+  - 📂 [Datasets](./Data/Datasets): sentences containing a woman or migrant keyword
+  - 📂 [HumanAnnotatedDataset](./Data/HumanAnnotatedDataset): human-annotated benchmark data
+  - 📂 [ModelPredictedData](./Data/ModelPredictedData): model-predicted labels
+- 📂 [ExperimentsScripts](./ExperimentsScripts): scripts used for training, fine-tuning, and inference experiments
+- 📂 [Analysis](./Analysis): code used to generate the plots
+- 📂 [archive/arxiv_v1](./archive/arxiv_v1): archived materials corresponding to the earlier arXiv v1 version
 
 See [DominikBeese/DeuParl-v2](https://github.com/DominikBeese/DeuParl-v2) for the full dataset of plenary protocols from the German _Reichstag_ and _Bundestag_.
 
+## License
+
+Unless otherwise noted, the code and documentation in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Materials in [`Data/HumanAnnotatedDataset/`](./Data/HumanAnnotatedDataset/) are subject to separate terms described in that folder’s [`README.md`](./Data/HumanAnnotatedDataset/README.md) and [`LICENSE`](./Data/HumanAnnotatedDataset/LICENSE) files.
 
 ## Citation
+
 ```
 @inproceedings{kostikova-etal-2024-fine,
 	title = {Fine-Grained Detection of Solidarity for Women and Migrants in 155 Years of {G}erman Parliamentary Debates},
