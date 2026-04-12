@@ -1,14 +1,22 @@
-# Analysis
-This folder contains the analysis code to generate the plots.
- * 📂 [DistributionOfKeywords](DistributionOfKeywords)
-   * 📊 [Distribution of Keywords](DistributionOfKeywords/DistributionOfKeywords.pdf)
-   * 📊 [Distribution of Keywords per Year (Woman)](DistributionOfKeywords/DistributionOfFrauKeywordsPerYear.pdf)
-   * 📊 [Distribution of Keywords per Year (Migrant)](DistributionOfKeywords/DistributionOfMigrantKeywordsPerYear.pdf)
- * 📂 [SolidarityDistribution](SolidarityDistribution)
-   * 📊 [Solidarity Distribution per Decade](SolidarityDistribution/SolidarityDistributionPerDecade.pdf)
-   * 📊 [Comparison of Solidarity and Anti-solidarity](SolidarityDistribution/ComparisonOfSolidarityAndAntiSolidarity.pdf)
- * 📂 [SolidarityDistributionPerKeyword](SolidarityDistributionPerKeyword)
-   * 📊 [Solidarity Distribution per Keyword and Decade (Woman)](SolidarityDistributionPerKeyword/SolidarityDistributionPerFrauKeywordAndDecade.pdf)
-   * 📊 [Solidarity Distribution per Keyword and Decade (Migrant)](SolidarityDistributionPerKeyword/SolidarityDistributionPerMigrantKeywordAndDecade.pdf)
+## Analysis
 
-We tested the code using Python 3.10.6. The required libraries are listed in the [`requirements.txt`](requirements.txt).
+This folder contains the analysis code to generate the plots.
+
+- 📂 [KeywordAnalysis](./KeywordAnalysis)
+  - 📂 [KeywordDistributionOverTime](./KeywordAnalysis/KeywordDistributionOverTime)
+    - 📊 [Distribution of Keywords](./KeywordAnalysis/KeywordDistributionOverTime/DistributionOfKeywords.py)
+    - 📊 [Distribution of Keywords per Year (Woman)](./KeywordAnalysis/KeywordDistributionOverTime/DistributionOfFrauKeywordsPerYear.py)
+    - 📊 [Distribution of Keywords per Year (Migrant)](./KeywordAnalysis/KeywordDistributionOverTime/DistributionOfMigrantKeywordsPerYear.py)
+
+- 📂 [SolidarityDistributionAcrossKeywords](./KeywordAnalysis/SolidarityDistributionAcrossKeywords)
+  - 📊 [Solidarity Distribution per Keyword and Decade](./KeywordAnalysis/SolidarityDistributionAcrossKeywords/PerKeywordAndDecade.py)
+
+- 📂 [PartyAnalysis](./PartyAnalysis)
+  - 📊 [Per Party](./PartyAnalysis/PerParty.py)
+
+- 📂 [SolidarityOverTime](./SolidarityOverTime)
+  - 📊 [Comparison per Decade](./SolidarityOverTime/ComparisonPerDecade.py)
+  - 📊 [Per Decade Fine-grained](./SolidarityOverTime/PerDecade_finegrained.py)
+  - 📊 [Per Decade High-level](./SolidarityOverTime/PerDecade_highlevel.py)
+
+Tested with Python 3.10 and the package versions listed in `requirements.txt`.
