@@ -15,7 +15,7 @@ INPUT_FILE = "INPUT_FILE.json"    # json or csv
 OUTPUT_FILE = "OUTPUT_FILE.json"  # json or csv
 
 PROMPTS_PATH = "prompts.json"
-MAIN_PROMPT_KEY = "Migrant_fewshot"
+MAIN_PROMPT_KEY = "Migrant_highlevel_zeroshot"
 SOLIDARITY_SUBTYPE_PROMPT_KEY = "Migrant_solidarity_zeroshot"
 ANTISOLIDARITY_SUBTYPE_PROMPT_KEY = "Migrant_antisolidarity_zeroshot"
 
